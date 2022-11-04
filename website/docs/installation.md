@@ -125,13 +125,14 @@ snap install neovide
           gnupg ca-certificates git \
           gcc-multilib g++-multilib cmake libssl-dev pkg-config \
           libfreetype6-dev libasound2-dev libexpat1-dev libxcb-composite0-dev \
-          libbz2-dev libsndio-dev freeglut3-dev libxmu-dev libxi-dev libfontconfig1-dev
+          libbz2-dev libsndio-dev freeglut3-dev libxmu-dev libxi-dev libfontconfig1-dev \
+          libxcursor-dev
       ```
 
    - Fedora
 
       ```sh
-      sudo dnf install fontconfig-devel freetype-devel libX11-xcb libX11-devel
+      sudo dnf install fontconfig-devel freetype-devel libX11-xcb libX11-devel libstdc++-static libstdc++-devel
       sudo dnf groupinstall "Development Tools" "Development Libraries"
       ```
 
